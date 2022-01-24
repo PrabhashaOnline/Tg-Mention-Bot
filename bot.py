@@ -25,7 +25,7 @@ async def start(event):
     link_preview=False
 
 @client.on(events.NewMessage(pattern="^/help$"))
-async def help(event):
+async def start(event):
   await event.reply(
 "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.",
     link_preview=False,
